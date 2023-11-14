@@ -30,6 +30,8 @@ const Header = () => {
         variant="small"
         color="blue-gray"
         className="flex items-center gap-x-2 p-1 font-medium"
+        onClick={() => handleRouter("/")}
+
       >
         <svg
           width="16"
@@ -53,6 +55,8 @@ const Header = () => {
         variant="small"
         color="blue-gray"
         className="flex items-center gap-x-2 p-1 font-medium"
+        onClick={() => handleRouter("/")}
+
       >
         <svg
           width="16"
